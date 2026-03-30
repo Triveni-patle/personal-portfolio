@@ -1,0 +1,179 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial,sans-serif;
+}
+
+body{
+    background-color: #f5f7fb;
+    color: #222;
+    line-height: 1.8;
+}
+
+header{
+    background-color: #0f172a;
+    padding: 15px 40px;
+    position: stickly;
+    top: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-size: 28px;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 18px;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links a:hover{
+    color: 38bdf8;
+}
+
+.hero{
+     background: linear-gradient(#0f172a,#1d4ed8);
+     color: white;
+     text-align: center;
+     padding: 100px 20px;
+}
+
+.hero-text h1{
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-text span{
+    color: #38bdf8;
+}
+
+.hero-text h3{
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.hero-text p{
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 25px;
+    font-size: 18px;    
+}
+
+.btn{
+   display: inline-block;
+   background-color: #38bdf8;
+   color: #0f172a;
+   padding: 12px 22px;
+   text-decoration: none;
+   border-radius: 8px;
+   font-weight: bold;
+   margin: 8px;
+}
+
+.btn:hover{
+    background-color: #bae6fd;
+}
+
+.btn-light{
+    background-color: white;
+    color: #0f172a;
+}
+
+.section{
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.section h2{
+    font-size: 34px;
+    margin-bottom: 25px;
+    color: #0f172a;
+}
+
+.section p{
+    max-width: 850px;
+    margin: auto;
+    font-size: 18px;
+}
+
+.dark-section{
+    background-color: #e2e8f0;
+}
+
+.card-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card{
+    background-color: white;
+    padding: 22px 35px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    font-size: 18px;
+    font-weight: bold;
+    min-width: 160px;
+}
+
+.project-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.project-card{
+    background-color: white;
+    width: 280px;
+    padding: 22px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.12);
+    text-align: left;
+}
+
+.project-card h3{
+       margin-bottom: 12px;
+       color: #1d4ed8;
+}
+
+.project-card p{
+    font-size: 16px;
+}
+
+.achievement-box,.contact-box{
+    background-color: white;
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    text-align: left;
+}
+
+.achievement-box p, .contact-box p{
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+footer{
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 15px;
+}
